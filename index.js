@@ -64,6 +64,7 @@ async function updateCredentials() {
 				registry = {
 					Name: 'ECR-' + registryId,
 					URL: registryUrl,
+					Type: 3,
 					Authentication: true,
 					Username: awsCredentials.username,
 					Password: awsCredentials.password
